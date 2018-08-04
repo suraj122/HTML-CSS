@@ -1,0 +1,62 @@
+/* EXERCISE 1 */
+
+h1 {
+  margin: 50px 0 25px 25px;
+}  
+
+.brick {
+  display: inline-block;
+  width: 140px;
+  height: 100px;
+  background: firebrick;
+  border: 5px solid #222;
+  margin: 2%;
+}
+
+.brick-2 {
+  border: 5px double #222;
+}
+.brick-3 {
+  border: 5px dashed #222;
+}
+.brick-4 {
+  border: 5px dotted #222;
+}
+.brick-5 {
+  border: none;
+}
+
+/* EXERCISE 2 */
+
+.container {
+  background: salmon;  
+  width: 300px;
+  padding: 3% 3% 3% 3%;
+}
+
+.content {
+  background: limegreen;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  padding: 1em;
+  border: 1em solid firebrick;
+}
+
+/* EXERCISE 3 */
+
+.container-2 {
+  box-sizing: border-box;
+  background: salmon;  
+  width: 300px;
+  padding: 3% 3% 3% 3%;
+}
+
+.content-2 {
+  background: limegreen;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  padding: 1em;
+  border: 1em solid firebrick;
+}
